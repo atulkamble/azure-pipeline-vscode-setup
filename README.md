@@ -1,6 +1,15 @@
 You can run and manage **Azure Pipelines** directly from VS Code using the **Azure Pipelines extension** and the **YAML pipeline files** in your repo. Here’s a step-by-step guide:
 
 ---
+```
+az devops configure --list
+az extension add --name azure-devops
+az devops configure --defaults organization=https://dev.azure.com/atul-kamble project="project"
+az upgrade
+pip install "setuptools<81"
+az pipelines list
+az repos list
+```
 
 ## 🔧 Prerequisites
 
